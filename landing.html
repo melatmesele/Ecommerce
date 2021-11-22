@@ -3,16 +3,52 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    .box{
+        height: 450px;
+        width: 400px;
+        background-color:cyan
+        opacity: 0.6;
+        margin-left: 200px;
+        padding-left:auto;
+    }
+    .form-control{
+        width: 200px;
+        margin:auto;
+        
+    }
+   .btn{
+       margin: auto;
+       padding-left: 40px;
+   }
+   header{
+       background-color: blueviolet;
+   }
+   header:a{
+       display:inline;
+       float: left;
+   }
+</style>
+
 </head>
+<header>
+    <ul><a href="customerList.html">lading</a></ul>
+</header>
 <html>
     <body>
-        <h1>MERCATO ECOMMERCE SERVICE</h1>
+        
+        <div class="box">
+        <h1><a href="">ECOMMERCE SERVICE</h1></a> 
         <p> inter your detailes</p>
         <form action="">
-            First Name:<input class="form-control"type="text"name="fname"required=""><br><br>
-            Last Name:<input class="form-control"type="text"name="lname"><br><br>
-            Email:<input class="form-control"type="email"name="email"required=""><br><br>
-            password:<input class="form-control"type="password"name="password"required=""><br><br>
+            <label>First name</label> <input class="form-control"type="text"name="fname"required="">
+            <label>last name</label><input class="form-control"type="text"name="lname">
+            <label>Email</label><input class="form-control"type="email"name="email"required="">
+            <label>password</label><input class="form-control"type="password"name="password"required=""><br>
+            <button class=" btn btn-success"type="submit">submit</button>
         </form>
+        </div>
+        
     </body>
+
 </html>
